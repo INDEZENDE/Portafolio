@@ -23,13 +23,13 @@ body {
 header {
 
 	width: 100%;
-	background: url('../img/c.jpg') #281a0c;
+	background: url('../img/c.jpg') ;
 	/* Photo by Artem Sapegin on Unsplash */
 	background-size:cover;
 	background-attachment: fixed;
 	background-position: center 0;
 	opacity: 1;
-	height: 700px;
+	height: 100vh;
 }
 
 header .contenedor {
@@ -62,7 +62,8 @@ header .menu a .front {
 
 header .textos {
 	width: 100%;
-	color: #FF00FF;
+	color: #f913f9;
+	/* color: #D580B3; */
 	position: absolute;
 	top: 10%;
 	margin-top:-52px;
@@ -88,10 +89,11 @@ header .textos h3 {
 }
 
 /* ----- ----- MAIN ----- ----- */
-.main {
-	background: url('../img/f.jpg') #281a0c;
+/* .main {
+	background: url('../img/j.jpg') #281a0c;
 	background-size:cover;
-}
+
+} */
 
 .main .acerca-de .contenedor {
 	color: #FFF;
@@ -119,7 +121,7 @@ header .textos h3 {
 	padding: 40px;
 	width: 63%;
 	position: relative;
-	top:1000px;
+	top:600px;
 	z-index: 1;
 	float: right;
 	box-shadow: 0px 0px 15px rgba(0,0,0,.9);
@@ -137,7 +139,7 @@ header .textos h3 {
 }
 
 .main .menu {
-	padding-top: 600px;
+	padding-top: 500px;
 	margin-bottom: 100px;
 	margin-left: 700px;
 }
@@ -192,16 +194,27 @@ footer .contacto .titulo {
 	font-weight: 300;
 	color: #FFF;
 
-	text-align: center;
-	background-color: #000;
+}
+
+footer  {
+
+ margin: 0;
+ padding: 0;
+
+}
+
+ footer .redes-sociales .container-fluid{
+	background: url('../img/j.jpg') #281a0c;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+
 }
 
 
 
 
-
-
-footer .redes-sociales {
+section .redes-sociales {
 	background: #FFF;
 	padding: 10px 0;
 }
