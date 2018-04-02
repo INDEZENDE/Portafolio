@@ -47,23 +47,22 @@ header .menu {
 
 }
 /* Coniene el menú de navegación */
-header .menu a .front {
+/* header .menu a .front {
 	font-weight: 300;
 	font-family: 'Kaushan Script', cursive;
-	color: #79727A;
-	display: inline-block;
-	margin: 100px 10px;
+	color: #f69da3; */
+	/* display: inline-block; */
+	/* margin: 20vh;
+	margin-left: auto;
 	text-decoration: none;
 	position: relative;
 	font-size: 80px;
 
 
-}
+} */
 
 header .textos {
 	width: 100%;
-	color: #f913f9;
-	/* color: #D580B3; */
 	position: absolute;
 	top: 10%;
 	margin-top:-52px;
@@ -80,11 +79,12 @@ header .textos .nombre span {
 }
 
 header .textos h3 {
+	margin: 0;
+	margin-left: 7vh;
 	font-weight: 300;
 	font-size: 50px;
 	font-family: 'Share Tech Mono', monospace;
-	color: #79727A;
-
+color: #f69da3;
 	/* font-style: italic; */
 }
 
@@ -158,6 +158,9 @@ header .textos h3 {
 	float: left;
 	padding: 20px;
 }
+.main .galeria #habilidades {
+	color:black;
+}
 
 
 .main .galeria {
@@ -165,7 +168,7 @@ header .textos h3 {
 }
 
 .main .galeria .foto {
-	width: 25%;
+	width: 33%;
 	float: left;
 }
 
@@ -204,7 +207,7 @@ footer  {
 }
 
  footer .redes-sociales .container-fluid{
-	background: url('../img/j.jpg') #281a0c;
+	background:#f69da3;
 	background-size:cover;
 	margin: 0;
 	padding: 0;
@@ -221,7 +224,7 @@ section .redes-sociales {
 
 
 footer .redes-sociales a {
-	color: #000;
+	color: #FFF;
 	text-align: center;
 	width: 100px;
 	display: block;
