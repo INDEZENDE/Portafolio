@@ -247,3 +247,13 @@ footer .redes-sociales {
 footer .redes-sociales .git, footer .redes-sociales .link {
 	margin-left: 20px;
 }
+
+.modal {
+	background-color: #fff;
+	width: 100vh;
+	opacity: .9;
+	filter: alpha(opacity=60);
+	margin: 0 auto;
+	/* color: black; */
+	height: 70vh;
+}
